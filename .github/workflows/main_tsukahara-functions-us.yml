@@ -10,9 +10,9 @@ on:
       - main
   workflow_dispatch:
 
-# defaults:
-#   run:
-#     working-directory: functions
+defaults:
+  run:
+    working-directory: functions
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: './functions' # set this to the path to your web app project, defaults to the repository root
